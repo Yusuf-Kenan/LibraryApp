@@ -76,7 +76,7 @@ export default function ListBooks() {
                 <th scope="row">{index + 1}</th>
                 <td>{book.name}</td>
                 <td>{book.auther}</td>
-                <td>{theCat.name}</td>
+                <td>{theCat!==undefined?theCat.name:"" }</td>
                 <td>
                   <div
                     className="btn-group"
